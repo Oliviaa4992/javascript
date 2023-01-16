@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: pretendard;
+}
+
+p {
+  font: 16px;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header,
+section,
+nav,
+article,
+aside,
+footer {
+  display: block;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  overflow: hidden;
+  color: white;
+}
